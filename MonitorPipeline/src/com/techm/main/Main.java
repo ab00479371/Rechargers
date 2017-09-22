@@ -9,6 +9,7 @@ public class Main {
 		// TODO Auto-generated method stub
 		Client client = Client.create();
 		WebResource webResource = client.resource("http://10.14.129.6:8080/api/json");
+		System.out.printlin("changes made");
 	}
 
 }
